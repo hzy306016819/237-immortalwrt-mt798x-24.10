@@ -1,5 +1,5 @@
 # 2025-8-28 
-feeds.conf.default文件在第一行增加了
+## feeds.conf.default文件在第一行增加了
 ```bash
 src-git kenzo https://github.com/hzy306016819/openwrt-packages
 ```
@@ -7,6 +7,8 @@ sh 增加方法  1i 是在第一行增加的意思
 ```bash
 sed -i '1i src-git kenzo https://github.com/hzy306016819/openwrt-packages' feeds.conf.default
 ```
+## package/network/config/firewall/files/firewall.config 增加端口映射
+
 <img src="https://avatars.githubusercontent.com/u/53193414?s=200&v=4" alt="logo" width="200" height="200" align="right">
 
 # Project ImmortalWrt
