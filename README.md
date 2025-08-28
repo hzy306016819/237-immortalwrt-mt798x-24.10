@@ -3,7 +3,7 @@ feeds.conf.default文件在第一行增加了
 ```bash
 src-git kenzo https://github.com/hzy306016819/openwrt-packages
 ```
-增加方法  1i 是在第一行增加的意思
+sh 增加方法  1i 是在第一行增加的意思
 ```bash
 sed -i '1i src-git kenzo https://github.com/hzy306016819/openwrt-packages' feeds.conf.default
 ```
